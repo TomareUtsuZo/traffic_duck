@@ -1,0 +1,10 @@
+# requirements.txt
+# Python dependencies for your ETL scripts
+
+pandas # For data manipulation and analysis
+requests # For making HTTP requests
+numpy # For numerical operations
+dotenv # For environment variable management
+xmltodict # Often useful for XML to dict conversion, ET is fine too
+pyarrow # Or fastparquet, needed for pandas to_parquet/read_parquet
+duckdb # For DuckDB support
